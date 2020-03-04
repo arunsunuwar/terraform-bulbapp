@@ -3,7 +3,7 @@ resource "aws_lb" "default" {
   internal           = false
   load_balancer_type = "application"
   security_groups    = ["${aws_security_group.default_lb.id}"]
-  subnets            = ["subnet-21eec31f", "subnet-69dd3948"]
+  subnets            = ["subnet-0a59446d", "subnet-3af0e814"]
   enable_deletion_protection = false
   tags = {
     Environment = "dev"
@@ -22,5 +22,5 @@ resource "aws_lb_target_group" "default" {
   name     = "terraform-ecs-bulbapp"
   port     = 80
   protocol = "HTTP"
-  vpc_id   = "vpc-f8a48e82"
+  vpc_id   = "vpc-7490be0"
 }
