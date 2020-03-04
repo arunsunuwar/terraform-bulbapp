@@ -1,7 +1,7 @@
 resource "aws_security_group" "default" {
   name        = "terraform-ecs-bulbapp"
   description = "Allow traffic"
-  vpc_id      = "vpc-f8a48e82"
+  vpc_id      = "vpc-7490be0e"
   ingress {
     from_port   = 22
     to_port     = 22
