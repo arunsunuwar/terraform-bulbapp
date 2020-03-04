@@ -22,5 +22,5 @@ resource "aws_lb_target_group" "default" {
   name     = "terraform-ecs-bulbapp"
   port     = 80
   protocol = "HTTP"
-  vpc_id   = "vpc-7490be0"
+  vpc_id   = "vpc-7490be0e"
 }
