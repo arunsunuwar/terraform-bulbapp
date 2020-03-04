@@ -7,7 +7,7 @@ resource "aws_ecs_task_definition" "default" {
 [
   {
     "name": "bulbapp",
-    "image": "860155566438.dkr.ecr.us-east-1.amazonaws.com/nginx-proxy:latest",
+    "image": "310065639301.dkr.ecr.us-east-1.amazonaws.com/nginx-proxy:latest",
     "essential": true,
     "portMappings": [
       {
