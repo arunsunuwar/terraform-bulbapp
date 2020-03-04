@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-arun"
+    bucket = "terraform-docker-bishwa"
     key    = "terraform/dev/ecs-bulbapp"
     region = "us-east-1"
-    profile = "arun"
+    profile = "bishwa"
   }
 }
